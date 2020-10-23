@@ -1,0 +1,31 @@
+<table>
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>SuperHero</th>
+      <th>Publisher</th>
+      <th>Alter Ego</th>
+      <th>Edad</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let p of personajes">
+      <td>{{p.id}}</td>
+      <td>{{p.superhero}}</td>
+      <td>{{p.publisher}}</td>
+      <td>{{p.alter_ego}}</td>
+      <td>{{p.age}}</td>
+
+      <td class="right-align">
+      <button class= "btn-floating waves-effect waves-light red"(click)="eliminar(p.id)">
+        <i class="material-icons">delete</i>
+      </button>
+      &nbsp;
+      <a class= "btn-floating waves-effect waves-light "  routerLink="edit/{{p.id}}">
+        <i class="material-icons">edit</i>
+      </a>
+      </td>
+    </tr>
+  </tbody>
+</table>

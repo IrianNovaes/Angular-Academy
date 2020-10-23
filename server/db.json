@@ -1,0 +1,81 @@
+{
+  "Personajes": [
+    {
+      "id": 1,
+      "superhero": "Batman",
+      "publisher": "DC Comics",
+      "alter_ego": "Bruce Wayne",
+      "age": 35
+    },
+    {
+      "id": 2,
+      "superhero": "Superman",
+      "publisher": "DC Comics",
+      "alter_ego": "Kal-El",
+      "age": 300
+    },
+    {
+      "id": 3,
+      "superhero": "Flash",
+      "publisher": "DC Comics",
+      "alter_ego": "Jay Garrick",
+      "age": 27
+    },
+    {
+      "id": 4,
+      "superhero": "Green Lantern",
+      "publisher": "DC Comics",
+      "alter_ego": "Alan Scott",
+      "age": 40
+    },
+    {
+      "id": 5,
+      "superhero": "Green Arrow",
+      "publisher": "DC Comics",
+      "alter_ego": "Oliver Queen",
+      "age": 36
+    },
+    {
+      "id": 6,
+      "superhero": "Wonder Woman",
+      "publisher": "DC Comics",
+      "alter_ego": "Princess Diana",
+      "age": 30
+    },
+    {
+      "id": 7,
+      "superhero": "Black Canary",
+      "publisher": "DC Comics",
+      "alter_ego": "Dinah Drake",
+      "age": 37
+    },
+    {
+      "id": 8,
+      "superhero": "Spider Man",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Peter Parker",
+      "age": 17
+    },
+    {
+      "id": 9,
+      "superhero": "Captain America",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Steve Rogers",
+      "age": 200
+    },
+    {
+      "id": 10,
+      "superhero": "Iron Man",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Tony Stark",
+      "age": 46
+    },
+    {
+      "superhero": "Edited test",
+      "publisher": "test",
+      "alter_ego": "test",
+      "age": "2",
+      "id": 13
+    }
+  ]
+}

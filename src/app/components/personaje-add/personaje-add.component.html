@@ -1,0 +1,21 @@
+<form [formGroup]="form" style="margin-top: 1em;" (submit)="submitForm()">
+  <div>
+    <label for="superhero">Superhero:</label>
+    <input type="text" formControlName="superhero" >
+  </div>
+  <div>
+    <label for="publisher">Publisher:</label>
+    <input type="text" formControlName="publisher" >
+  </div>
+  <div>
+    <label for="alter_ego">Alter Ego</label>
+    <input type="text" formControlName="alter_ego" >
+  </div>
+  <div>
+    <label for="age">Age</label>
+    <input type="number" formControlName="age" >
+  </div>
+  <button class="btn waves-effect waves-light" style="width:100%; margin-top: 0.5em;">
+Add
+  </button>
+</form>

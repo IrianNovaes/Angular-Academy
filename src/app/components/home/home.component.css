@@ -1,0 +1,37 @@
+div {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2%;
+}
+
+aside {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+div h2 {
+  font-size: 3rem;
+  text-shadow: 2px 2px rgb(10, 220, 228);
+  font-variant: small-caps;
+}
+
+div p {
+  text-align: justify;
+  padding-left: 0.5em;
+}
+
+div aside h3 {
+  margin-bottom: 0;
+  font-size: 1.7rem;
+  font-weight: 500;
+  text-align: right;
+  font-variant: small-caps;
+}
+
+div aside ul {
+  margin-top: 5%;
+  text-align: right;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
